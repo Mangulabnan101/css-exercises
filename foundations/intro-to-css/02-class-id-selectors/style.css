@@ -1,0 +1,17 @@
+.Odd{
+    background-color: rgb(224, 151, 175);
+    font-family: Verdana,sans-serif;
+}
+#second{
+    color: blue;
+    font-size: 36px;
+
+}
+.Odd#third{
+    font-size: 34px;
+}
+#fourth{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

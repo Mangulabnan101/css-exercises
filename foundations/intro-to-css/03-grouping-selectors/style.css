@@ -1,0 +1,14 @@
+.sumakses-one,
+.sumakses-two {
+    font-size:28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.sumakses-one {
+    background-color: black;
+    color:white;
+}
+
+.sumakses-two {
+    background-color: yellow;
+}
