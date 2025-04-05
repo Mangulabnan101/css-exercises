@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  /* display:flex; for the container to behave as a flexbox as well as its child/s. */
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
@@ -14,4 +15,5 @@
   width: 80px;
   height: 80px;
   margin:auto;
+  /* margin auto sets the content of the container (.box) into the center since all the margin will automatically be equalized for the items inside the container (.container) */
 }
