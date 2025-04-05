@@ -1,6 +1,16 @@
 .header  {
+  /* This makes the parent as well as its children behave as a flexbox. */
+  display:flex;
   font-family: monospace;
   background: papayawhip;
+  /* This should wrap and set the direction of the parent */
+  flex-flow: row wrap;
+  /* These centers the items */
+  align-items: center;
+  justify-content: space-between;
+  /* We'll set a padding to have a space between the items and the border of the parent */
+  padding:10px;
+  /* We'll then need to insert the space-between */
 }
 
 .logo {
@@ -9,11 +19,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* this sets the margin of the logo as auto and it should eat the extra space inside the parent which should also push its siblings aside. */
+  margin: auto;
 }
 
 ul {
+  /* This makes the items behave as a flexbox. */
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* adds an even gap between the child inside the parent */
+  gap:10px;
+  /* this should remove the uneven padding in the first set of UL which is the one, two, and three. */
+  padding:0px;
 }
 
 a {
