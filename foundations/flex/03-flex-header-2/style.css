@@ -9,9 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
+  /* This makes the header and its children flexible. ^_^ */
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  align-items: center;
+  padding:8px;
 }
 
 .profile-image {
@@ -44,5 +48,13 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 16px;
+  flex-grow: 1;
+}
+
+.grptwo {
+  display: flex;
+  gap: 16px;
 }
